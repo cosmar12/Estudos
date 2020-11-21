@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Contato -Barbearia Alura</title>
+		<link rel="stylesheet" type="text/css" href="reset.css"> <!-- Colocar o reset como primeiro sempre (MUITO IMPORTANTE) -->
+		<link rel="stylesheet" type="text/css" href="contato.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<header>
+
+			<div class="caixa">
+				<h1><img src="imagens/logo.png" alt="Logo da Barbearia Alura"> </h1> <!-- Uma imagem dentro do h1 -->
+				
+				<nav>
+					<ul class="tamanho-li"> <!-- Sempre colocando o meuno em forma de lista -->
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li> 
+					</ul>
+				</nav>
+
+			<div>
+
+		</header>
+
+		<main>
+
+			<form class="centralizado"> <!-- Os form são do tipo inline -->
+
+				<label for="nomeesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomeesobrenome"class="input" required="">
+
+				<label for="email">E-mail</label>
+				<input type="email" id="email" class="input" required="" placeholder="seuemail@dominio.com">
+
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input" required="" placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem"required=""></textarea>
+
+				<fieldset> <!--Referente a informações do mesmo tipo -->
+
+					<legend>Como prefere o nosso contato </legend>
+
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" > Email</label>
+					
+					
+
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone" > Telefone</label>
+					 
+					
+
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked=""> WhatsApp</label>
+
+		       	</fieldset>
+
+		       	
+
+		       	<select>
+
+		       		<legend>Qual horário prefere ser atendido ?</legend>
+		       		<option>Manhã</option>
+		       		<option>Tarde</option>
+		       		<option>Noite</option>
+		       		
+		       	</select>
+
+
+		       	<label><input type="checkbox" name="" class="checkbox" checked=""> Gostaria de receber nossas novidades por email ?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar"> <!--Botão-->
+
+			</form>
+
+			<table>
+				
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>
+				</thead>
+
+				<tbody>
+
+					<tr>
+						<td>Segunda</td>
+						<td>8h - 20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>>8h - 20h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>>8h - 20h</td>
+					</tr>
+
+				</tbody>
+
+
+			</table>
+
+		</main>
+
+
+		
+		<footer>
+
+				<img src="imagens/logo-branco.png" alt="Logo da Barbearia Alura">
+				<p class="copyright">&copy; Coprtighy Marks - 2020 </p>
+			
+
+		</footer>
+
+</html>
+</body>

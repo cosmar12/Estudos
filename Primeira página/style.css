@@ -1,0 +1,81 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
+/* --------------------------------HEADER-------------------------------------- */
+header {
+	background: #BBBBBB;
+	padding: 20px 0px; /* Espaçamento interno*/
+}
+
+.caixa { /* codigo paraa centralizar a caixa */
+	position: relative; /* dica pra arrumar posição de acordo com a caixa div*/
+	width: 940px;
+	margin: 0 auto; /* melhor técnica para alinhar uma div ao centro*/
+}
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0px;
+
+}
+
+nav li{ /* só vai altera <li> que esteja dentro de uma nav */
+	display: inline;
+	margin-left: 20px;
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+
+nav a:hover { /* estados do mouse */
+	color: #C78C79;
+	text-decoration: underline; /* sublinhado */
+
+}
+
+
+/* ------------------------TEXTO ---------------------- */
+
+.texto-center{
+	text-align: center;
+}
+
+
+
+
+
+
+
+ul{
+	display: inline-block; /* retirou o block da linha */
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+
+
+
+}
+
+.imgbeneficio {
+	width: 50%;
+}
+/* Tecnica para verificar espaçamentos
+	Exemplo:
+	border: 10px solid red;
+
+
+*/
+/* ---------------FOORTER----------------- */
+footer{
+	text-align: center;
+	background: url(imagens/bg.jpg);
+	padding: 40px 0;
+}
