@@ -1,0 +1,103 @@
+body{
+    background-image: url(img/fundo.png);
+    font: 16px Arial, Helvetica, sans-serif;
+    
+    
+}
+/*----- NAV ------- */
+
+
+nav{
+	position: relative;
+	bottom: 10px;
+	right: 0px;
+
+}
+
+nav li{ /* só vai altersa <li> que esteja dentro de uma nav */
+	display: inline;
+    margin-left: 20px;
+    
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+    text-decoration: none;
+    color: rgb(136, 106, 9);
+
+}
+
+nav a:hover { /* estados do mouse */
+	color: #C78C79;
+	text-decoration: underline; /* sublinhado */
+
+}
+
+
+.caixa { /* codigo paraa centralizar a caixa */
+	position: relative; /* dica pra arrumar posição de acordo com a caixa div*/
+	width: 940px;
+    margin: 0 auto;
+    padding: 20px 0px; /* Espaçamento interno*/
+
+}
+/*-----------produtos-------------*/
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 70px 0px;
+    background-color: rgba(250, 237, 209, 0.767);
+    
+    }
+
+.produtos h2, p, img{
+     display: inline-block;
+     text-align: left;
+      /* largura*/
+     vertical-align: tosp; /*recarregamento pela linha de cima*/
+    margin: 0 1.5%;
+    padding: 15px 10px;
+     box-sizing: border-box; /* verificar funcionamento*/
+    /*border-color: #000000; 
+    border-width: 2px;
+    border-style: solid ;  	(OPCIONAL OUTRA MANEIRA) */   
+     
+    
+    }
+
+.produtos h2{
+    color: rgb(218, 190, 131);
+}
+
+.img-campanha{
+    border: 10px solid #c3c3ae;
+}
+
+
+
+/*--------------footer------------------*/
+footer{
+    width: 940px;
+    margin: 0 auto;
+	background-color: rgba(248, 222, 166, 0.767);
+    padding: 40px 0;
+    
+}
+footer ul{  
+    display: inline;
+    
+    
+}
+.footer-p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.contato{
+    margin-left: 10px;
+}
+
